@@ -15,7 +15,7 @@ public class Day3Usecase5
 		Thread.sleep(2000);
 		int sizeOf = driver.findElements(By.tagName("a")).size();
 		System.out.println(sizeOf);
-		boolean isValid = true;
+		
 		//only text//
 		for(int i=0;i<sizeOf;i++)
 		{
